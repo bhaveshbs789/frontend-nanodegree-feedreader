@@ -1,29 +1,10 @@
-# Project Overview
+## Student Project Comments
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
-
-
-## Why this Project?
-
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
-
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
-
-
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
-
-
-## How will this help my career?
-
-* Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
-
-
-# How will I complete this project?
+### This Project uses [Jasmine](http://jasmine.github.io/) for Unit testing various components of the Feed Reader Web application
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
+
+**FOR REFERENCE**
 
 1. Take the JavaScript Testing [course](https://www.udacity.com/course/ud549)
 2. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
@@ -47,8 +28,23 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
 
-## Student Project Comments
+### Steps to run the application
 
-1. To run the unit tests , please install Jasmine first
-	`npm install jasmine`
-2. 
+**NOTE**
+
+1. The first step is to clone the repo locally onto your local machine 
+    `git clone https://github.com/bhaveshbs789/frontend-nanodegree-feedreader`
+
+2. The jasmine components are loaded within the repo. The project uses `Jasmine 2.1.2` for Unit testing.
+
+3. Navigate to the folder where the repository has been cloned.
+
+4. Open the index.html file in your browser.
+
+5. Post opening the file in the browser make sure that lower bottom section of the page shows the tests details , ie whether success or fail.
+
+6. For writing any Unit Tests, navigate to `jasmine/spec` and open the `feedreader.js` in your text editor.
+
+7. Start writing any specs in the section and you should see the status when refreshing the webpage.
+
+_Happy coding!!_
